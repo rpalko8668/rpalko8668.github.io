@@ -2,7 +2,7 @@
 var myIndex = 0;
 carousel();
 
-function carousel() {
+window.onload = function carousel() {
   let photos = document.getElementsByClassName("mySlides");
   for (let i = 0; i < photos.length; i++) {
     photos[i].style.display = "none";
