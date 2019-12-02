@@ -1,6 +1,6 @@
 // carousel effect for slideshow
 var myIndex = 0;
-window.onload = carousel();
+window.addEventListener('load', carousel); //waits until the page loads
 
 function carousel() {
   let photos = document.getElementsByClassName("mySlides");
