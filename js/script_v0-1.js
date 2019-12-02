@@ -1,8 +1,8 @@
 // carousel effect for slideshow
 var myIndex = 0;
-carousel();
+window.onload = carousel();
 
-window.onload = function carousel() {
+function carousel() {
   let photos = document.getElementsByClassName("mySlides");
   for (let i = 0; i < photos.length; i++) {
     photos[i].style.display = "none";
