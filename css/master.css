@@ -8,18 +8,22 @@
 /* load font, main background, and page defaults */
 body {
   font-family: "Oswald", sans-serif;
-  background-color: #EEE;
+  background-color: #DDD;
 }
 
 nav {
   position: sticky;
   background-color: #AAA;
   display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
 }
 
 nav > a {
   display: block;
-  flex-direction: row;
+  padding: 10px;
+  background-color: #333;
 }
 
 .center-text {
