@@ -3,11 +3,3 @@
   opacity: 0.4;
   position: absolute;
 }
-
-.greeting-card {
-  opacity: 0.8;
-  margin: 20% 25%;
-  border-bottom: 1px;
-  border-right: 1px;
-  border-radius: 1px;
-}
